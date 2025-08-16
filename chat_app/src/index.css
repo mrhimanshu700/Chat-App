@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* html {
+    overflow: hidden;
+    height: 100%;
+} */
+
+/* body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* This ensures your header stays fixed */
+/* .app-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+} */
+
+/* Main content area should scroll (if needed) */
+/* .main-content {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 60px;
+    /* Adjust based on header height */
+    /* height: calc(100vh - 60px);
+} */
