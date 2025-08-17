@@ -12,7 +12,10 @@ const port =process.env.PORT||  3000
 const dbUrl = process.env.MONGODB_URL;
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL],
+  origin: [
+    'http://localhost:5173', 
+    'https://chat-app-akyx.onrender.com'
+  ],
     credentials: true,
   })
 );
@@ -37,7 +40,10 @@ const server=app.listen(port, () => {
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
    cors: {
-    origin: [process.env.FRONTEND_URL],
+     origin: [
+    'http://localhost:5173', 
+    'https://chat-app-akyx.onrender.com'
+  ],
     credentials: true,
   },
 });
