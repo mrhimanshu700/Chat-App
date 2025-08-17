@@ -14,7 +14,7 @@ app.use(
   cors({
   origin: [
     'http://localhost:5173', 
-    'https://chat-app-akyx.onrender.com'
+    'https://chat-with-friends-zeta.vercel.app'
   ],
     credentials: true,
   })
@@ -42,7 +42,7 @@ const io = require("socket.io")(server, {
    cors: {
      origin: [
     'http://localhost:5173', 
-    'https://chat-app-akyx.onrender.com'
+    'https://chat-with-friends-zeta.vercel.app'
   ],
     credentials: true,
   },
