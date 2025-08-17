@@ -18,7 +18,7 @@ import axios from "axios";
 import ScrollableChat from "./ScrollableChat";
 import Lottie from "react-lottie";
 import animationData from "../animations/typing.json";
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "https://chat-app-akyx.onrender.com";
 const API_URL = import.meta.env.VITE_API_URL;
 var socket, selectedChatCompare;
 function SingleChat({ fetchAgain, setFetchAgain }) {
